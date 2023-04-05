@@ -20,14 +20,15 @@ h1{
     font-size: 36px;
 }
 .a-btn-rojo{
-    background-color: #E20000;
+    background-color: #D41111;
 }
 .btn{
     border-radius: 8px;
-    background-color: white;
+    background-color:#D41111;
+    color: white;
     }
 .btn:hover{
-    background-color: darkorchid;
+    background-color: #550E6A;
 }  
 
 #contacto footer, #contacto footer a {
@@ -58,6 +59,44 @@ h1{
     background-color: rgb(138, 9, 9);
     color: white;
 }
-#index .a{
-   width: 200px;
+.index{
+    background-image:url("../imagenes/fondo-contacto.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-red{
+    background-color: #282828;
+    color: aliceblue;
+    border-radius: 2px;
+}
+.btn-red:hover{
+    background-color: #E20000;
+
+}
+.benvenuto{
+    font-size: 32px;
+    border: solid 1px #FB7C7C;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+#stack{
+    background-color: #F76033;
+    
+}
+#stack h2{
+   color: white;
+    font-size: 44px;
+}
+#stack h3{
+    font-size: 24px;
+    color: #282828;
+    font-weight: 300;
+}
+#stack .tecnologia{
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+#stack .tecnologia i{
+    font-size: 60px;
 }
